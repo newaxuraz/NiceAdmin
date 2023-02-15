@@ -7,10 +7,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/newaxuraz/NiceAdmin'
             }
         }
-         stage('Hello world') {
-            steps {
-                echo "Hello world"
-            }
-        }
+         
     }
 }
