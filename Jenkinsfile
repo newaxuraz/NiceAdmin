@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Copy  files') {
             steps {
-                sh 'sudo cp -R /var/lib/jenkins/workspace/Nice-admins/* /var/www/html/'
+                sh 'sudo cp -R /var/lib/jenkins/workspace/Nice-admins/* /var/www/html'
             }
         }
     }
