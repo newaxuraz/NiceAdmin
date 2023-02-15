@@ -10,7 +10,7 @@ pipeline {
         }
          stage('Delete existing files') {
             steps {
-                sh 'sudo rm -rf /var/www/html'
+                sh 'sudo rm -rf /var/www/html/*'
             }
         }
         stage('Copy  files') {
